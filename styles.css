@@ -1,0 +1,59 @@
+body{
+    margin-left: 40%;
+}
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 200px;
+    height: 200px;
+    padding: 10px;
+    height: 400px; 
+    width: 500px;
+}
+.visor{
+    grid-column: span 4;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid black;
+    height: 40px;
+    width: 400px;
+    background-color: rgb(135, 255, 223);
+    border-radius: 10px;
+    font-size: 30px;
+}
+.boton{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 9px;
+    background-color: #ebeaea;
+    font-size: 25px;
+}
+.boton:hover{
+    background-color: #fa9e00;
+    color:white;
+}
+.c1{
+    margin-top: 30px;
+    width: 441px;
+    background-color: rgb(41, 41, 106);
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 475px;
+}
+.titulo{
+    grid-column: 1/5;
+    text-align: center;
+    color: white;
+}
+.botonig{
+    grid-row: 6/8;
+    grid-column: 4/5;
+    background-color: rgb(241, 143, 143);
+}
+.boton0{
+    grid-column: 1/3;
+}
